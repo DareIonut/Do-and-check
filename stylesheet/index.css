@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f6f6;
+  min-height: 100vh;
+}
+
+form input,
+form button {
+  padding: 0.7rem;
+  font-size: 2rem;
+  border: none;
+  background: #c5b9fa;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.header {
+  min-height: 5rem;
+  background-color: #554bf6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.brand-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  color: white;
+}
+
+.hero-todos {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60rem;
+          flex: 1 1 60rem;
+}
+
+.hero-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60rem;
+          flex: 1 1 60rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.the-img {
+  height: 50rem;
+  width: 55rem;
+}
+
+.hero-todos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input {
+  height: 7rem;
+  width: 50rem;
+  margin-top: 3rem;
+  color: white;
+  font-size: 6rem;
+}
+
+.btn-add {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 3rem;
+  background: #6c63ff;
+  cursor: pointer;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.task-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.task {
+  height: 7rem;
+  width: 43rem;
+  font-size: 5rem;
+  background: #a39ef7;
+  color: white;
+  list-style: none;
+}
+
+.list-button {
+  height: 7rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.checked-all {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 50%;
+}
+
+.no-collision {
+  color: white;
+  font-size: 3rem;
+  pointer-events: none;
+}
+
+.delete {
+  background: #ff6363;
+}
+
+.check {
+  background: #63ff97;
+}
+/*# sourceMappingURL=index.css.map */
