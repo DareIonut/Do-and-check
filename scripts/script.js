@@ -22,8 +22,7 @@ function createTask(event) {
   div.appendChild(task);
   //adding the inputValue to the localStorage
   saveTask(inputValue);
-  // clear the input after submit
-  inputValue = "";
+  input.value = "";
   // create delete button
   const deleteButton = document.createElement("button");
   deleteButton.innerHTML = `<i class="fas fa-trash no-collision"></i>`;

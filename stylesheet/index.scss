@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f7f6f6;
+  background-color: #ced4f7;
   min-height: 100vh;
 }
 
@@ -42,22 +42,6 @@ form button {
   font-family: "Poppins", sans-serif;
   font-size: 5rem;
   color: white;
-}
-.hero-todos {
-  flex: 1 1 60rem;
-}
-
-.hero-img {
-  display: flex;
-  flex: 1 1 60rem;
-  justify-content: center;
-  align-items: center;
-  position: sticky;
-}
-
-.the-img {
-  height: 50rem;
-  width: 55rem;
 }
 .hero-todos {
   display: flex;
@@ -119,4 +103,30 @@ form button {
 }
 .check {
   background: #63ff97;
+}
+
+@media screen and (max-width: 400px) {
+  .brand-name {
+    font-size: 3rem;
+  }
+  .input {
+    height: 5rem;
+    width: 30rem;
+    font-size: 4rem;
+  }
+  .btn-add {
+    height: 5rem;
+    width: 5rem;
+    font-size: 3.5rem;
+  }
+  .task {
+    height: 5rem;
+    width: 25rem;
+    font-size: 3.5rem;
+  }
+  .list-button {
+    height: 5rem;
+    width: 5rem;
+    font-size: 3.5rem;
+  }
 }
